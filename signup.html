@@ -1,0 +1,175 @@
+<html>
+<style>
+
+*{
+
+ margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+body{
+
+
+
+
+font-family:arial,helvetica,sans-serif;
+background-image:url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260.jpg');
+background-size:cover;
+background-attachment:fixed;
+}
+  /*center content vertically and
+horizontally*/
+.container
+.box
+{
+width:900px;
+float:right;
+border:1px solid none;
+                 }
+                 .box ul li{
+                     width: 120px;
+                     float: left;
+                     margin: 10px auto;
+                     text-align: center;
+                 }
+                 .box ul li a{
+                     text-decoration: none;
+                     color: black;
+                 }
+
+                 .box ul li:hover{ background-color: green;}
+                 .box ul li a:hover{ color:white;}
+
+.container
+{
+float:center;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+
+}
+.form{
+width:500px;
+height:600px;
+background-color:rgb(30,39,39,0.3);
+
+}
+.formgroup{
+display:flex;
+justify-content:center;
+}
+.formgroup input{
+border:none;
+width:80%;
+padding:20px;
+margin-buttom:20px;
+background-color:transparent;
+border-bottom:2px solid white;
+color:white;
+font-weight:bold;
+font-size:17px;
+}
+::placeholder{
+color:white;
+}
+input:focus{
+outline:none;
+border-bottom:2ps solid rgb(149,241,149);
+font-size:17px;
+font-weight:bold;
+}
+.checkbox{
+display:flex;justify-content:center;
+margin:15px;
+}
+#checkbox{
+height:15px;
+width:15px;
+}
+.text{
+color:whitesmoke;
+font-size:13px;
+}
+.btn2{
+padding:10px;
+outline:none;
+width:150px;
+border-radius:20px;
+border-style:none;
+background-color:rgb(28,131,28);
+color:whitesmoke;
+font-weight:700;
+}
+.btn2:hover{
+background-color:rgb(23,88,23,0.5);
+}
+.btn button:hover{
+border-bottom:2px solid rgb(99,225,99);
+}
+
+
+</style>
+<head>
+<title>signup</title>
+</head>
+<body>
+          <div class="box">
+           <ul type="none">
+               <li><a href="home.html"> Home</a></li>   
+               <li><a href="buy.html"> Buy</a></li>   
+               <li><a href="rent.html"> Rent</a></li>   
+               <li><a href="sell.html"> Sell</a></li>   
+               <li><a href="signup.html" > Sign UP</a></li> 
+   <li><a href="Contact.html"> Contact US</a></li> 
+           </ul> 
+          </div>
+<div class="container">
+<div class="form">
+<div class="btn">
+<h1 style="text-align:center";><spam>SignUP</spam></h1>
+
+</div>
+<form action=""class="form">
+<div class="formGroup">
+<input type="text"name="name" id="FirstName" placeholder="First Name"autocomplete="off">
+</div>
+
+<form action=""class="form">
+<div class="formGroup">
+<input type="text"name="name" id="Last name" placeholder="Last Name"autocomplete="off">
+</div>
+
+
+<div class="formGroup">
+<input type="Email"name="Email" id="Email" placeholder="Email ID"autocomplete="off">
+</div>
+<div class="formGroup">
+<input type="ConfirmEmail"name="ConfirmEmail" id="ConfirmEmail" placeholder="ConfirmEmail ID"autocomplete="off">
+</div>
+<div class="formGroup">
+<input type="Mobile Number"name="Mobile Number" id="Mobile Number" placeholder="Mobile Number"autocomplete="off">
+</div>
+
+<div class="formGroup">
+<input type="Password"name="password" id="password" placeholder="Password"autocomplete="off">
+</div>
+<div class="formGroup">
+<input type="password"name="confirmpassword" id="confirmpassword" placeholder="confirmpassword" autocomplete="off">
+</div>
+
+<div class="checkBox">
+<input type="checkbox" name="checkbox" id="checkbox">
+<span class="text"><strong>I agree with terms & conditions.</strong></span>
+</div>
+<div class="formGroup">
+<button class="btn2">SignUp</button>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
